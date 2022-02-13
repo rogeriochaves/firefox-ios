@@ -6,7 +6,7 @@
 #include "Debug.xcconfig"
 
 MOZ_BUNDLE_DISPLAY_NAME = Fennec
-MOZ_BUNDLE_ID = org.mozilla.ios.FennecEnterprise
+MOZ_BUNDLE_ID = app.rchaves.ios.FennecEnterprise
 // Flag to indicate if we want to include the debug settings bundle or not
 INCLUDE_SETTINGS_BUNDLE = YES
 MOZ_TODAY_WIDGET_SEARCH_DISPLAY_NAME = Firefox - Search

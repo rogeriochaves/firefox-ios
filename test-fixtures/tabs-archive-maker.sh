@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-# xcrun simctl get_app_container booted org.mozilla.ios.Fennec
+# xcrun simctl get_app_container booted app.rchaves.ios.Fennec
 # - returns Client.app path
 
 SIM_NAME="iPhone-8Plus-tabsArchive" 

@@ -28,7 +28,7 @@ enum SentTabAction: String {
         let viewAction = UNNotificationAction(identifier: SentTabAction.view.rawValue, title: .SentTabViewActionTitle, options: .foreground)
 
         // Register ourselves to handle the notification category set by NotificationService for APNS notifications
-        let sentTabCategory = UNNotificationCategory(identifier: "org.mozilla.ios.SentTab.placeholder", actions: [viewAction], intentIdentifiers: [], options: UNNotificationCategoryOptions(rawValue: 0))
+        let sentTabCategory = UNNotificationCategory(identifier: "app.rchaves.ios.SentTab.placeholder", actions: [viewAction], intentIdentifiers: [], options: UNNotificationCategoryOptions(rawValue: 0))
         UNUserNotificationCenter.current().setNotificationCategories([sentTabCategory])
     }
 }

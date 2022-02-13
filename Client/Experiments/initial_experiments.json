@@ -1,7 +1,7 @@
 {
     "data": [{
             "slug": "ios-search-full-text",
-            "appId": "org.mozilla.ios.Fennec",
+            "appId": "app.rchaves.ios.Fennec",
             "appName": "firefox_ios",
             "channel": "nightly",
             "branches": [{
@@ -103,7 +103,7 @@
             "featureIds": [
                 "nimbus-validation"
             ],
-            "application": "org.mozilla.ios.Fennec",
+            "application": "app.rchaves.ios.Fennec",
             "bucketConfig": {
                 "count": 0,
                 "start": 0,
@@ -122,7 +122,7 @@
         },
         {
                 "slug": "mr2-homescreen-experiment",
-                "appId": "org.mozilla.ios.Fennec",
+                "appId": "app.rchaves.ios.Fennec",
                 "appName": "firefox_ios",
                 "channel": "nightly",
                 "branches": [

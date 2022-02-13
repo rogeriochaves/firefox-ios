@@ -6,8 +6,8 @@
 	<string>$(APP_IDENTIFIER_PREFIX)</string>
 	<key>BGTaskSchedulerPermittedIdentifiers</key>
 	<array>
-		<string>org.mozilla.ios.sync.part1</string>
-		<string>org.mozilla.ios.sync.part2</string>
+		<string>app.rchaves.ios.sync.part1</string>
+		<string>app.rchaves.ios.sync.part2</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
@@ -98,7 +98,7 @@
 	<array>
 		<string>QuickActionIntent</string>
 		<string>QuickLinkSelectionIntent</string>
-		<string>org.mozilla.ios.firefox.browsing</string>
+		<string>app.rchaves.ios.firefox.browsing</string>
 	</array>
 	<key>PocketEnvironmentAPIKey</key>
 	<string>$(POCKET_API_KEY)</string>
