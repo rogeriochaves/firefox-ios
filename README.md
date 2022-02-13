@@ -1,7 +1,10 @@
-Firefox for iOS [![codebeat badge](https://codebeat.co/badges/67e58b6d-bc89-4f22-ba8f-7668a9c15c5a)](https://codebeat.co/projects/github-com-mozilla-firefox-ios) [![codecov](https://codecov.io/gh/mozilla-mobile/firefox-ios/branch/main/graph/badge.svg)](https://codecov.io/gh/mozilla-mobile/firefox-ios/branch/main)
+Firefox for iOS + i-dont-care-about-cookies 🍪 <br />
+[![codebeat badge](https://codebeat.co/badges/67e58b6d-bc89-4f22-ba8f-7668a9c15c5a)](https://codebeat.co/projects/github-com-mozilla-firefox-ios) [![codecov](https://codecov.io/gh/mozilla-mobile/firefox-ios/branch/main/graph/badge.svg)](https://codecov.io/gh/mozilla-mobile/firefox-ios/branch/main)
 ===============
 
-Download on the [App Store](https://itunes.apple.com/app/firefox-web-browser/id989804926).
+This is a fork from Firefox iOS with [i-dont-care-about-cookies](https://www.i-dont-care-about-cookies.eu/) extension embedded, if you want your firefox free of cookie requests as well, you can build this version and use yourself if you have Xcode
+
+---
 
 This branch (main)
 -----------
@@ -40,6 +43,7 @@ Building the code
     ```
 1. Open `Client.xcodeproj` in Xcode.
 1. Build the `Fennec` scheme in Xcode.
+1. When you get certificate errors, find and replace my team (XC2B8QXW6P) and domain (app.rchaves.ios) with your own [(more info)](https://github.com/mozilla-mobile/firefox-ios/discussions/8788)
 
 Note: In case you have dependencies issues with SPM, you can try to reset package caches and resolve package version.
 
